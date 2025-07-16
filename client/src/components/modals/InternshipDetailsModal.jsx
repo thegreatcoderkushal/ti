@@ -162,15 +162,11 @@ const InternshipDetailsModal = ({ isOpen, onClose, internship, userType, onApply
                     <div className="space-y-3">
                       <div className="flex justify-between">
                         <span className="text-gray-600">Start Date</span>
-                        <span className="font-medium text-gray-900">{formatDate(internship.startDate)}</span>
+                        <span className="font-medium text-gray-900">{formatDate(internship.internshipStartDate)}</span>
                       </div>
                       <div className="flex justify-between">
                         <span className="text-gray-600">End Date</span>
-                        <span className="font-medium text-gray-900">{formatDate(internship.endDate)}</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span className="text-gray-600">Application Deadline</span>
-                        <span className="font-medium text-gray-900">{formatDate(internship.applicationDeadline)}</span>
+                        <span className="font-medium text-gray-900">{formatDate(internship.internshipEndDate)}</span>
                       </div>
                     </div>
                   </div>
