@@ -12,7 +12,7 @@ const LoginRequiredModal = ({ isOpen, onClose }) => {
 
   const handleSignup = () => {
     onClose();
-    navigate('/signup');
+    navigate('/register');
   };
 
   return (
